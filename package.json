@@ -1,0 +1,29 @@
+{
+  "name": "cp-client",
+  "version": "0.0.0",
+  "description": "ContainerPilot client for Node.js",
+  "main": "lib",
+  "scripts": {
+    "lint": "belly-button --fix",
+    "test": "lab -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geek/cp-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geek/cp-client/issues"
+  },
+  "homepage": "https://github.com/geek/cp-client#readme",
+  "dependencies": {
+    "consulite": "^1.6.0",
+    "wreck": "^12.2.2"
+  },
+  "devDependencies": {
+    "belly-button": "^3.1.0",
+    "lab": "^14.1.0"
+  }
+}
