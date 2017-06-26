@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/geek/cp-client#readme",
   "dependencies": {
-    "consulite": "^1.6.0",
+    "consulite": "^1.7.0",
+    "items": "^2.1.1",
     "wreck": "^12.2.2"
   },
   "devDependencies": {
